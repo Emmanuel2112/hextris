@@ -12,5 +12,5 @@ jobs:
       with:
         server: files.000webhost.com
         username: attelier1
-        password: 1B)Mj4)hKlURSLkJh(aQ
+        password: ${{ secrets.FTP_PASSWORD }}
         server-dir : public_html/
